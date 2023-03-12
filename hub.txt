@@ -3,4 +3,4 @@ shortLabel Developing Cortex
 longLabel Full length Isoform sequencing from developing human cortex
 genomesFile genomes.txt
 email ashokpatowary@g.ucla.edu
-descriptionUrl ucscHub.html
+descriptionUrl descriptionUrl description.html
