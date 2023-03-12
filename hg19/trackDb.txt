@@ -1,24 +1,25 @@
 track DevelopingBrain
-container composite
+#container composite
+compositeTrack on
 shortLabel Developing Cortex
 longLabel Full length Isoform sequencing from developing human cortex
 type bigBed 12 +
 #descriptionUrl https://sciso.gandallab.org/
 
 
-track DevelopingBrain_Bulk
-bigDataUrl FetalBrain_Bulk.bb
-shortLabel DevelopingBrain_Bulk
-longLabel DevelopingBrain_Bulk
-parent DevelopingBrain
-type bigBed 12 +
-#descriptionUrl https://sciso.gandallab.org/
+  track DevelopingBrain_Bulk
+  bigDataUrl FetalBrain_Bulk.bb
+  shortLabel DevelopingBrain_Bulk
+  longLabel DevelopingBrain_Bulk
+  parent DevelopingBrain
+  type bigBed 12 +
+  #descriptionUrl https://sciso.gandallab.org/
 
 
-track DevelopingBrain_SingleCell
-bigDataUrl FetalBrain_singleCell.bb
-shortLabel DevelopingBrain_SingleCell
-longLabel DevelopingBrain_SingleCell
-type bigBed 12 +
-parent DevelopingBrain
-#descriptionUrl https://sciso.gandallab.org/
+  track DevelopingBrain_SingleCell
+  bigDataUrl FetalBrain_singleCell.bb
+  shortLabel DevelopingBrain_SingleCell
+  longLabel DevelopingBrain_SingleCell
+  type bigBed 12 +
+  parent DevelopingBrain
+  #descriptionUrl https://sciso.gandallab.org/
